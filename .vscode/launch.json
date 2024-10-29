@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:password}",
+            "name": "Debug password",
+            "program": "${workspaceFolder:password}/.build/debug/password",
+            "preLaunchTask": "swift: Build Debug password"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:password}",
+            "name": "Release password",
+            "program": "${workspaceFolder:password}/.build/release/password",
+            "preLaunchTask": "swift: Build Release password"
+        }
+    ]
+}
